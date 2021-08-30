@@ -46,10 +46,6 @@ end
 
 
 
----- FUNCTII (ANGAJARE) ----
-
-
-
 RegisterNUICallback("milbei", function(data)
     if data.action == "leave" then
         meniuplm = false
